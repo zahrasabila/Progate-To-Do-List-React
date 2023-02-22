@@ -1,0 +1,17 @@
+.TodoItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+}
+
+.btn-delete {
+  background-color: #e5505c;
+  color: rgb(255 255 255);
+  height: 1.5rem !important;
+  width: 1.5rem;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border: none;
+}

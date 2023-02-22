@@ -1,0 +1,65 @@
+.icon {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: absolute;
+  left: 35%;
+  gap: 2.8rem;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+.icon img {
+  width: 2.5rem;
+  margin: auto;
+}
+
+.icon-img {
+  display: flex;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 20px;
+}
+
+.icon-img:nth-child(1) {
+  background-color: lightpink;
+}
+.icon-img:nth-child(2) {
+  background-color: lightsalmon;
+}
+.icon-img:nth-child(3) {
+  background-color: lightskyblue;
+}
+.icon-img:nth-child(4) {
+  background-color: lightseagreen;
+}
+
+.intro {
+  background-color: #53c2c9;
+  color: #ffffff;
+  text-align: left;
+  width: 30%;
+  border-radius: 35px;
+}
+
+.intro p {
+  font-size: 1.5rem;
+}
+
+.intro-desc {
+  padding: 1rem;
+}
+
+.intro img {
+  width: 100%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.h1-2 {
+  position: absolute;
+  width: fit-content;
+  top: 9%;
+  left: 46.5%;
+  color: chocolate;
+}
